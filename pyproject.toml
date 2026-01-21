@@ -1,6 +1,6 @@
 [build-system]
-requires = ["setuptools>=61.0"]
-build-backend = "setuptools.build_meta"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
 [project]
 name = "miracle-sdk"
@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.8"
 license = {file = "LICENSE"}
 authors = [
-  {name = "Ankush", email = "ankush@example.com"}
+  {name = "Ankush", email = "miracle-support@drankush.com"}
 ]
 keywords = ["mri", "cardiovascular", "reference-values", "medical-imaging", "scmr", "pediatrics", "sdk", "z-score"]
 classifiers = [
@@ -40,3 +40,6 @@ dev = [
     "types-requests",
     "types-PyYAML"
 ]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/miracle"]

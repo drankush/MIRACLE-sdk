@@ -2,9 +2,11 @@
 
 **The Official Python SDK for the MIRACLE API**
 
-[![PyPI version](https://badge.fury.io/py/miracle-sdk.svg)](https://badge.fury.io/py/miracle-sdk)
+[![PyPI version](https://badge.fury.io/py/miracle-sdk.svg)](https://pypi.org/project/miracle-sdk/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+
+📦 **PyPI**: [pypi.org/project/miracle-sdk](https://pypi.org/project/miracle-sdk/)
 
 ---
 
@@ -14,7 +16,7 @@ The MIRACLE SDK provides a simple, typed, and high-performance Python interface 
 
 ## ✨ Features
 
-- **35+ Endpoints**: Access all MIRACLE API domains with auto-generated, typed methods.
+- **34 Endpoints**: Access all MIRACLE API domains with auto-generated, typed methods.
 - **Batch Processing**: Process hundreds of patients in parallel with `MiracleBatch`.
 - **IDE Support**: Full autocomplete and type hints for VS Code, PyCharm, and more.
 - **Battle-Tested**: Verified with stress tests (16+ concurrent requests, 100% success rate).
