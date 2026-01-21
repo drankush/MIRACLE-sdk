@@ -2,7 +2,7 @@
 
 **The Official Python SDK for the MIRACLE API**
 
-[![PyPI version](https://badge.fury.io/py/miracle-sdk.svg)](https://pypi.org/project/miracle-sdk/)
+[![PyPI version](https://img.shields.io/pypi/v/miracle-sdk.svg)](https://pypi.org/project/miracle-sdk/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
